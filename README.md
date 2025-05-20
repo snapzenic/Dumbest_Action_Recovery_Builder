@@ -1,4 +1,5 @@
-# Lazy Action Recovery Builder |TWRP / PBRP / OFRP / SHRP|
+## Dumbest Action Recovery Builder
+### Supports ( TWRP - SHRP Reborn - PBRP - OFox )
 Compile your first custom recovery via Github Actions - with ldcheck setup.
 
 ## How to Use
@@ -12,7 +13,8 @@ Compile your first custom recovery via Github Actions - with ldcheck setup.
  - LDCHECK (path to your target binary file, ie. `system/bin/qseecomd`)
    - If you are building manually/locally and you want to use ldcheck for checking dependencies, visit [THIS](https://github.com/TeamWin/android_device_qcom_twrp-common/tree/android-11#using-ldcheck-to-find-dependencies) this for guide.
 
-## Thanks/Credits
+## Thanks / Credits
+ - [lazycodebuilder](https://github.com/lazycodebuilder)
  - [CaptainThrowback](https://github.com/CaptainThrowback)
  - [azwhikaru](https://github.com/azwhikaru)
  - [cd-Crypton](https://github.com/cd-Crypton)

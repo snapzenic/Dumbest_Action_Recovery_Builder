@@ -15,7 +15,7 @@ Easily compile your first custom recovery using **GitHub Actions** — with **ld
 1. **Fork** this repository.
 
 2. Go to the **Actions** tab > **All workflows**, then select the recovery type you want to build:
-   - `TWRP`, `PBRP`, `OFRP`, or `SHRP`
+   - `TWRP`, `PBRP`, `OFRP`, or `SHRP Reborn`
 
 3. Click **Run workflow**, and provide the required information in the dropdowns:
    - **Manifest Branch** (e.g., `12.1`, `11.0`, `10.0`, `9.0`, etc.)

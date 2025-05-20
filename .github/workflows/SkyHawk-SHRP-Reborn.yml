@@ -183,7 +183,7 @@ jobs:
           android-recovery/out/target/product/${{ env.DEVICE_NAME }}/${{ env.BUILD_TARGET_NAME }}.img
           android-recovery/out/target/product/${{ env.DEVICE_NAME }}/SHRP*.zip
           android-recovery/out/target/product/${{ env.DEVICE_NAME }}/ramdisk-recovery.*
-        name: Unofficial SHRP For ${{ env.DEVICE_NAME }} // ${{ env.BUILD_DATE }}
+        name: Unofficial SHRP Reborn For ${{ env.DEVICE_NAME }} // ${{ env.BUILD_DATE }}
         tag_name: ${{ github.run_id }}
         body: |
           Build: ${{ inputs.MANIFEST_BRANCH }}

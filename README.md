@@ -1,24 +1,41 @@
-## Dumbest Action Recovery Builder
-- Supports ( TWRP - SHRP Reborn - PBRP - OFox )
+# Dumbest Action Recovery Builder
 
-Compile your first custom recovery via Github Actions - with ldcheck setup.
+Easily compile your first custom recovery using **GitHub Actions** — with **ldcheck** support.
+
+### Supported Recoveries
+- **TWRP**
+- **SHRP Reborn**
+- **PBRP**
+- **OrangeFox (OFRP)**
+
+---
 
 ## How to Use
-1. Fork this repository.
 
-2. Go to `Action` tab > `All workflows` > Pick which Build you need (`TWRP or PBRP or OFRP or SHRP`) > `Run workflow`, then pick required information from each drop-down list:
- - Manifest Branch (*12.1, *11.0, *10.0, *9.0, *8.1, *7.1, *6.0, etc.)
- - Device Tree (Your device tree repository link)
- - Device Tree Branch (Your device tree repository branch)
- - Build Target (boot, reecovery, vendorboot)
- - LDCHECK (path to your target binary file, ie. `system/bin/qseecomd`)
-   - If you are building manually/locally and you want to use ldcheck for checking dependencies, visit [THIS](https://github.com/TeamWin/android_device_qcom_twrp-common/tree/android-11#using-ldcheck-to-find-dependencies) this for guide.
+1. **Fork** this repository.
 
-## Thanks / Credits
- - [lazycodebuilder](https://github.com/lazycodebuilder)
- - [CaptainThrowback](https://github.com/CaptainThrowback)
- - [azwhikaru](https://github.com/azwhikaru)
- - [cd-Crypton](https://github.com/cd-Crypton)
- - [that1](https://github.com/that1)
- - [carlodandan](https://github.com/carlodandan)
- - And to all Contributors in every repositories and scripts I used.
+2. Go to the **Actions** tab > **All workflows**, then select the recovery type you want to build:
+   - `TWRP`, `PBRP`, `OFRP`, or `SHRP`
+
+3. Click **Run workflow**, and provide the required information in the dropdowns:
+   - **Manifest Branch** (e.g., `12.1`, `11.0`, `10.0`, `9.0`, etc.)
+   - **Device Tree** (URL of your device tree repository)
+   - **Device Tree Branch** (Branch name of the device tree)
+   - **Build Target** (`boot`, `recovery`, or `vendor_boot`)
+   - **LDCHECK** (Path to your target binary, e.g., `system/bin/qseecomd`)
+
+> **Tip:** If you're building manually or locally and want to use `ldcheck`, see [this guide](https://github.com/TeamWin/android_device_qcom_twrp-common/tree/android-11#using-ldcheck-to-find-dependencies) for more information.
+
+---
+
+## Credits
+
+Special thanks to the following people and projects:
+
+- [lazycodebuilder](https://github.com/lazycodebuilder)
+- [CaptainThrowback](https://github.com/CaptainThrowback)
+- [azwhikaru](https://github.com/azwhikaru)
+- [cd-Crypton](https://github.com/cd-Crypton)
+- [that1](https://github.com/that1)
+- [carlodandan](https://github.com/carlodandan)
+- And all contributors of the repositories and scripts that made this possible.

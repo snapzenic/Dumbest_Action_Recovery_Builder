@@ -161,7 +161,7 @@ jobs:
       run: |
         sudo apt-get install python2 python-is-python2
 
-    - name: Building Image 
+    - name: Building TWRP 
       run: |
         cd android-recovery
         source build/envsetup.sh

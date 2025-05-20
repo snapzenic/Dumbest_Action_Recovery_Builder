@@ -142,7 +142,7 @@ jobs:
       run: |
         sudo apt-get install python2 python-is-python2
 
-    - name: Building OrangeFox
+    - name: Building OFRP
       run: |
         cd ${GITHUB_WORKSPACE}/OrangeFox/fox_${{ inputs.MANIFEST_BRANCH }}
         set +e

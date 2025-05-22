@@ -64,10 +64,10 @@ jobs:
         echo "Device Branch: ${{ inputs.DEVICE_TREE_BRANCH }}"
         echo "Build Target: ${{ inputs.BUILD_TARGET }}image"
               
-    - name: Clean-up
+    - name: Cleanup
       uses: rokibhasansagar/slimhub_actions@main
 
-    - name: Swap Space
+    - name: Set Swap Space
       uses: pierotofy/set-swap-space@master
       with:
         swap-size-gb: 12

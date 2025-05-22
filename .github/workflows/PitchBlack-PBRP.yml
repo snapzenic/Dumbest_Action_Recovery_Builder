@@ -171,7 +171,7 @@ jobs:
         export ALLOW_MISSING_DEPENDENCIES=true
         lunch ${{ env.DEVICE_MAKEFILE }}-eng && mka ${{ inputs.BUILD_TARGET }}
 
-    - name: Check Build Makefile
+    - name: Set build target for upload
       run: |
         cd android-recovery
         if [ -f out/target/product/${{ env.DEVICE_NAME }}/recovery.img ]; then
